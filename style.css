@@ -1,0 +1,17 @@
+.renklendir{
+    color:blue;
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 20px;
+    font-style: italic;
+
+
+             }
+             .kalin {
+                 font-weight: 700; /*fotn kalınlıgı*/
+                 text-decoration: underline; /*altnı çizdi*/
+ 
+             }
+             .kelimebosluk{
+                 word-spacing: 1cm;/*kelimeler arasındaki boşluk*/
+                 letter-spacing: 0.3cm; /*harfler arasındaki boşluk*/
+             }
