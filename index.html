@@ -6,59 +6,182 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <title>Kartlar</title>
 
     <style>
 
     </style>
+   
   </head>
   <body>
-        <!--  container /**/ container-fluid -->
-   
+     
+  <nav class="navbar sticky-top text-center navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
+      <a href="index.html"> <img height="45px" class="navbar-brand" src="logo.png" alt=""> </a> 
+    <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#menuac">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="menuac">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Markalar</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Sektörler</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Kurumsal</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">İkinci El</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">İletişim</a>
+        </li>
 
-   <h1>Slider</h1>
-   <hr>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-md-8">
+      <h1>Öne Çıkan makaleler</h1>
+      <hr class="bg-success">
+
+      <div class="card mb-4">
+        <img src="egitimv1/card.png" height="300px" class="card-img-top" alt="">
+        <div class="card-body">
+          <h2 class="card-title">Makale Başlığı</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium consequatur excepturi quos eius repellendus incidunt maiores, ullam saepe labore, explicabo molestiae blanditiis consectetur delectus minus nostrum nemo dicta ea.</p>
+      <a href="#" class="btn btn-success">Devamını oku<i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="card-footer text-muted">
+          <span class="">Yayınlandığı Tarih 12.10.2022</span>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <img src="egitimv1/card.png" height="300px" class="card-img-top" alt="">
+        <div class="card-body">
+          <h2 class="card-title">Makale Başlığı</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium consequatur excepturi quos eius repellendus incidunt maiores, ullam saepe labore, explicabo molestiae blanditiis consectetur delectus minus nostrum nemo dicta ea.</p>
+      <a href="#" class="btn btn-success">Devamını oku<i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="card-footer text-muted">
+          <span class="">Yayınlandığı Tarih 12.10.2022</span>
+        </div>
+      </div>
 
 
 
-
-
-
-<br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
+    </div>
+    <div class="col-md-4">
+<div class="card">
+  <div class="card-header bg-success text-white">Arama Kutusu</div>
+  <div class="card-body">
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Kelime girin" name="">
+  <span><button class="btn btn-secodary" type="button">Ara</button> </span>
+</div>
+  </div>
 </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-$('[data-toggle="popover"]').popover();
-});
+<div class="card my-4">
+  <div class="card-header bg-success text-white">Kategoriler</div>
+  <div class="card-body">
+  
+    <div class="row">
+    <div class="col-md-6">
+      <ul class="list-unstyled">
+        <li> <a href="#">kategori 1</a></li>
+        <li> <a href="#">kategori 2</a></li>
+        <li> <a href="#">kategori 3</a></li>
+        <li> <a href="#">kategori 1</a></li>
+        <li> <a href="#">kategori 2</a></li>
+        <li> <a href="#">kategori 3</a></li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="list-unstyled">
+        <li> <a href="#">kategori 1</a></li>
+        <li> <a href="#">kategori 2</a></li>
+        <li> <a href="#">kategori 3</a></li>
+        <li> <a href="#">kategori 1</a></li>
+        <li> <a href="#">kategori 2</a></li>
+        <li> <a href="#">kategori 3</a></li>
+      </ul>
+    </div>
+    </div>
 
-</script>
+  </div>
+</div>
+
+<div class="card my-4">
+  <div class="card-header bg-success text-white">Reklam Alanı</div>
+  <div align="center" class="card-body">
+  
+  <img class="img-fluid" width="" height="300px" src="egitimv1/card.png" alt="">
+
+  </div>
+</div>
+
+
+</div>
+  
+  </div>
+</div>
+  
+
+
+
+
+<footer>
+  <nav class="navbar fixed-bottom text-center navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html">MAİL ABONELİĞİ </a> 
+    <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#menuac">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="menuac">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Gizlilik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Şartlar & Koşullar</a>
+        </li>
+        
+
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+</footer>
+
+
+
+
+
+
+
+
+ 
+    <script src="js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+
 
   
   </body>

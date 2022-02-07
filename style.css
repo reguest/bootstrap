@@ -15,3 +15,7 @@
                  word-spacing: 1cm;/*kelimeler arasındaki boşluk*/
                  letter-spacing: 0.3cm; /*harfler arasındaki boşluk*/
              }
+             .card ul    a{
+          text-decoration: none;
+          color: black;
+             }
